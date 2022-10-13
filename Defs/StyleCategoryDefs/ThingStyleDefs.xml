@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--Morbid-->
+	<ThingStyleDef>
+		<defName>MineableTestRed</defName>
+		<overrideLabel>Red Mineable Test</overrideLabel>
+		<graphicData>
+		<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<color>(70,70,70)</color>
+		<colorTwo>(255,32,3)</colorTwo>
+		<linkType>CornerFiller</linkType>
+            <linkFlags>
+                <li>Wall</li>
+                <li>Rock</li>
+            </linkFlags>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+                <edgeTop>Damage/Edge</edgeTop>
+                <edgeBot>Damage/Edge</edgeBot>
+                <edgeLeft>Damage/Edge</edgeLeft>
+                <edgeRight>Damage/Edge</edgeRight>
+            </damageData>
+    </graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>RawTestRed</defName>
+		<overrideLabel>Red Raw Test</overrideLabel>
+		<graphicData>
+			<texPath>Things/Item/Chunk/Test</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<flipExtraRotation>80</flipExtraRotation>
+			<color>(70,70,70)</color>
+			<colorTwo>(255,32,3)</colorTwo>
+        </graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>TestRed</defName> 
+		<overrideLabel>Red Test</overrideLabel>
+		<graphicData>
+			<texPath>Things/Item/Resource/StoneBlocks</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(255,32,3)</color>
+        </graphicData>
+	</ThingStyleDef>
+
+<!--Animalistic-->
+	<ThingStyleDef>
+		<defName>MineableTestGreen</defName>
+		<overrideLabel>Green Mineable Test</overrideLabel>
+		<graphicData>
+		<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<color>(70,70,70)</color>
+		<colorTwo>(10,196,0)</colorTwo>
+		<linkType>CornerFiller</linkType>
+            <linkFlags>
+                <li>Wall</li>
+                <li>Rock</li>
+            </linkFlags>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+                <edgeTop>Damage/Edge</edgeTop>
+                <edgeBot>Damage/Edge</edgeBot>
+                <edgeLeft>Damage/Edge</edgeLeft>
+                <edgeRight>Damage/Edge</edgeRight>
+            </damageData>
+    </graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>RawTestGreen</defName>
+		<overrideLabel>Green Raw Test</overrideLabel>
+		<graphicData>
+			<texPath>Things/Item/Chunk/Test</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<flipExtraRotation>80</flipExtraRotation>
+			<color>(170,170,170)</color>
+			<colorTwo>(10,196,0)</colorTwo> <!--when it set to 3,165,252 like the standard version it will show.-->
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>TestGreen</defName> 
+		<overrideLabel>Green Test</overrideLabel>
+		<graphicData>
+			<texPath>Things/Item/Resource/StoneBlocks</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(10,196,0)</color>
+        </graphicData>
+	</ThingStyleDef>
+
+</Defs>

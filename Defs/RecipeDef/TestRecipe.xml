@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="MakeStoneBlocksBase">
+    <defName>Make_Test</defName>
+    <label>Refine Test</label>
+    <description>Refine the raw Test into something less rocky.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawTest</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawTest</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Test>10</Test>
+    </products>
+  </RecipeDef>
+
+</Defs>

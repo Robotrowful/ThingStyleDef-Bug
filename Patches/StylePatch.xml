@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch> 
+      <Operation Class="PatchOperationAdd">
+            <xpath>Defs/StyleCategoryDef[defName="Morbid"]/thingDefStyles</xpath>
+            <value>     
+                  <li>
+	                  <thingDef>MineableTest</thingDef>
+                        <styleDef>MineableTestRed</styleDef>
+	            </li>
+                  <li>
+	                  <thingDef>RawTest</thingDef>
+                        <styleDef>RawTestRed</styleDef>
+	            </li>
+                  <li>
+	                  <thingDef>Test</thingDef>
+                        <styleDef>TestRed</styleDef>
+	            </li>
+            </value>
+      </Operation>
+      <Operation Class="PatchOperationAdd">
+            <xpath>Defs/StyleCategoryDef[defName="Animalist"]/thingDefStyles</xpath>
+            <value>
+                  <li>
+	                  <thingDef>MineableTest</thingDef>
+                        <styleDef>MineableTestGreen</styleDef>
+	            </li>
+                  <li>
+	                  <thingDef>RawTest</thingDef>
+                        <styleDef>RawTestGreen</styleDef>
+	            </li>
+                  <li>
+	                  <thingDef>Test</thingDef>
+                        <styleDef>TestGreen</styleDef>
+	            </li>
+            </value>
+      </Operation>
+</Patch>

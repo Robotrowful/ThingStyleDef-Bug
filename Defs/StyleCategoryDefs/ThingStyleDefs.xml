@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--Morbid-->
+<!--Morbid--> <!--Using original colours-->
 	<ThingStyleDef>
 		<defName>MineableTestRed</defName>
-		<overrideLabel>Red Mineable Test</overrideLabel>
+		<overrideLabel>Red Mineable Test (Colour Matching)</overrideLabel>
 		<graphicData>
 		<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
 		<color>(70,70,70)</color>
-		<colorTwo>(255,32,3)</colorTwo>
+      	<colorTwo>(3,165,252)</colorTwo>
 		<linkType>CornerFiller</linkType>
             <linkFlags>
                 <li>Wall</li>
@@ -30,36 +30,36 @@
 
 	<ThingStyleDef>
 		<defName>RawTestRed</defName>
-		<overrideLabel>Red Raw Test</overrideLabel>
+		<overrideLabel>Red Raw Test (Colour Matching)</overrideLabel>
 		<graphicData>
 			<texPath>Things/Item/Chunk/Test</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<flipExtraRotation>80</flipExtraRotation>
 			<color>(70,70,70)</color>
-			<colorTwo>(255,32,3)</colorTwo>
+			<colorTwo>(3,165,252)</colorTwo>
         </graphicData>
 	</ThingStyleDef>
 
 	<ThingStyleDef>
 		<defName>TestRed</defName> 
-		<overrideLabel>Red Test</overrideLabel>
+		<overrideLabel>Red Test (Colour Matching)</overrideLabel>
 		<graphicData>
 			<texPath>Things/Item/Resource/StoneBlocks</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(255,32,3)</color>
+			<color>(3,165,252)</color>
         </graphicData>
 	</ThingStyleDef>
 
-<!--Animalistic-->
+<!--Animalistic--> <!--Using Different colours-->
 	<ThingStyleDef>
 		<defName>MineableTestGreen</defName>
-		<overrideLabel>Green Mineable Test</overrideLabel>
+		<overrideLabel>Green Mineable Test (Colour Not Matching)</overrideLabel>
 		<graphicData>
 		<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
-		<color>(70,70,70)</color>
+		<color>(170,170,170)</color>
 		<colorTwo>(10,196,0)</colorTwo>
 		<linkType>CornerFiller</linkType>
             <linkFlags>
@@ -81,7 +81,7 @@
 
 	<ThingStyleDef>
 		<defName>RawTestGreen</defName>
-		<overrideLabel>Green Raw Test</overrideLabel>
+		<overrideLabel>Green Raw Test (Colour Not Matching)</overrideLabel>
 		<graphicData>
 			<texPath>Things/Item/Chunk/Test</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -94,7 +94,7 @@
 
 	<ThingStyleDef>
 		<defName>TestGreen</defName> 
-		<overrideLabel>Green Test</overrideLabel>
+		<overrideLabel>Green Test (Colour Not Matching)</overrideLabel>
 		<graphicData>
 			<texPath>Things/Item/Resource/StoneBlocks</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
